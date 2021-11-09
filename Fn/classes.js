@@ -14,4 +14,4 @@ class Rectangle {
 }
 const square = new Rectangle(10, 10);
 
-console.log(calcArea); //100
+console.log(); //100
