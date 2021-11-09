@@ -16,5 +16,5 @@ function triggerTests(type, format) {
 }
 }
 // call the same functions with different values 
-triggerTests(testConfig.unitType, testConfig.json);
+// triggerTests(testConfig.unitType, testConfig.json);
 triggerTests(testConfig.e2eType, testConfig.xml);
