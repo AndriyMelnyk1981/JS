@@ -1,8 +1,8 @@
-// function sayHelloWorld() {
-//   return "Hello, World!";
-// };
-// var str = sayHelloWorld();
-// console.log(str);
+function sayHelloWorld() {
+  return "Hello, World!";
+};
+var str = sayHelloWorld();
+console.log(str);
 
 // const Marvel = {
 //   yearCreation: 1939,
