@@ -3,6 +3,7 @@
 // };
 // var str = sayHelloWorld();
 // console.log(str);
+
 // const Marvel = {
 //   yearCreation: 1939,
 //   mainCharacter: 'Spider Man',
@@ -54,7 +55,7 @@ square (10);  //result 100
  
 // Anonymous function
 
-function makeDecision(maeFn) {
+function makeDecision(makeFn) {
   makeFn();
 }
 

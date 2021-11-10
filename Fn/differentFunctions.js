@@ -4,11 +4,11 @@ const square1 = (a) =>{      // the same as first row
 return a * a
 };
 
-function square2(a) {
-return a * a;
+function square2(a, b) {
+return a + b;
 }
-
-const square3 = function(a) {
+console.log(square2(2, 3));
+function square3(a) {
     return a * a;
 }
 
