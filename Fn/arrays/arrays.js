@@ -37,7 +37,13 @@ arr.reverse(); // повертає масив з елементами, в зво
 "Ivan".split(""); // створює масив з окремих букв  [ 'I', 'v', 'a', 'n' ]
 console.log("Ivan".split(""));
  
+var array = ['Some string', 'Another String', 'Third String', 'JavaScript', 'Misko'];
+// var filtered = array.filter(function(e){
+//     return e.indexOf('o') ===-1;
+// });
+// console.log(filtered);  // фільтрування елементів, що містять букву "о"
 
+console.log(array.every(function(e){return e.lenght > 1})); 
 
 
 
