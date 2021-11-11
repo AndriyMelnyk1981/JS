@@ -9,10 +9,11 @@ sayHelloWorld()
 //   newObj[field] = value;
 //   return newObj;
 // }
-var obj = { name: '' };
+// var obj = { name: '' };
 
-function printObj(str, obj = { key }) {
-    obj.name = str;
-    return obj.name;
-}
-console.log(printObj('Name', obj));
+// function printObj(str, obj = { key }) {
+//     obj.name = str;
+//     return obj.name;
+// }
+// console.log(printObj('Name', obj));
+
