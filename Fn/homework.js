@@ -17,3 +17,8 @@ sayHelloWorld()
 // }
 // console.log(printObj('Name', obj));
 
+
+const numsArray = [1, 2, 5, 4, 8, 9];
+  const sum = numsArray.reduce(
+    (acc, current) => acc += current, 0);
+  console.log(sum);
