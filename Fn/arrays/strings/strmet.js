@@ -74,15 +74,19 @@
 //   });
 
 
-let str = "Argentina manit negra";
-function palindrome(str) {
-    var removeChar = str.replace(/[^A-Z0-9]/ig, "").toLowerCase();
-    var checkPalindrome = removeChar.split('').reverse().join('');
-     return (removeChar === checkPalindrome);
-  }
+// let str = "Argentina manit negra";
+// function palindrome(str) {
+//     var removeChar = str.replace(/[^A-Z0-9]/ig, "").toLowerCase();
+//     var checkPalindrome = removeChar.split('').reverse().join('');
+//      return (removeChar === checkPalindrome);
+//   }
  
 
 // let newParagraph = paragraph.map(function (current) {
 //     return current.toLowerCase();
 //   });
 //   console.log(current)
+
+function greeting(name) {
+    retu
+}

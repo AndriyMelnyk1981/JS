@@ -104,15 +104,15 @@
 //     console.log(item);
     
 //   })
-// var n;
-//     let arr = [];
-//     for (n = 1; n <=20; n++){
-//         arr[n]= n
-//       arr.join()
+let n;
+    let arr = [];
+    for (n = 1; n <=20; n+=2){
+        arr[n]= n
+      arr.join()
    
-//     }
-//     arr.join();
-//     console.log(arr.join());
+    }
+    arr.join();
+    console.log(arr.join());
 
 const arr = [
   43, "what", 9, true, "cannot", false, "be", 3, true
