@@ -96,6 +96,33 @@ this.numbers =numbers.split(", ")
 
 this.room = +room;
 }
+static month = ["січня", "лютого", "березня", "квітня", "травня", "червня", "липня", "серпня", "вересня", "жовтня", "листопада", "грудня"];
+/*Вивести ПІБ
+*@return {string} строка формату ПІБ */
+getPib() {
+    return `${this.name.p} ${this.name.i} ${this.name.b}`
+}
+/*Вивести день народження
+*@return {string} строка формату "13 липня 1994" */
+getBirthday() {
+    return `${this.date.d} ${People.month[this.date.m-1]} ${this.date.y}`
+}
+/**
+ * Вивести всі номери телефонів або тільки перший
+ * @param {boolean} allNumbers if true, show all, else (false) first only
+ * @return {string} строка формату: "067987654, 0938523654"
+ */
+getNumberList(allNumbers) {
+    if(this.numbers.length ==0 || this.numbers[0].length ==0)
+    return undefined
+    if(allNumbers) {
+       return this.numbers.join (", ")
+    } else {this.numbers[0];}
+}
 }
 let people1 =new People("Петро Іванович Ліскевич", "12.11.1981", "067987654", 25)
-console.log(people1)
+let people2 =new People("Ольга Василівна Заболотна", "10.04.1989", "067456214", 27)
+
+console.log(people2.getPib())
+console.log(people2.getBirthday())
+console.log(people2.getNumberList())
